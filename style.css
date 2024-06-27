@@ -1,0 +1,50 @@
+body div{
+    font-family: "Playfair Display", serif;
+}
+#homehead{
+    color: white;
+    font-size: 100px;
+}
+#homehead1{
+    color: orange; 
+    font-size: 50px;
+}
+.bluehover:hover{
+    color: blue;
+}
+/* html, body {
+    overflow-x: hidden;
+    width: 100%;
+} */
+@media(max-width:1098px){
+   
+}
+@media(max-width:768px){
+    .navimage{
+        width: 50%;
+    }
+    #homehead{
+        font-size: 80px;
+    }
+    .navimage{
+        width: 80%;
+    }
+}
+@media(max-width:568px){
+    .navimage{
+        width: 70%;
+    }
+    #homehead{
+        font-size: 80px;
+    }
+   
+}
+@media(max-width:480px){
+    .navimage{
+        width: 80%;
+    }
+    #homehead{
+        font-size: 60px;
+    }
+ 
+}
