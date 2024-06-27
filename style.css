@@ -6,7 +6,7 @@ body div{
     font-size: 100px;
 }
 #homehead1{
-    color: orange; 
+    color: white; 
     font-size: 50px;
 }
 .bluehover:hover{
@@ -16,8 +16,34 @@ body div{
     overflow-x: hidden;
     width: 100%;
 } */
-@media(max-width:1098px){
-   
+#uparrow{
+    float: right;
+    margin: -40px 40px 40px 40px;
+}
+.up{
+    font-size: 30px;
+    color: blue;
+}
+.up:hover{
+    color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(16, 16, 103);
+    border-radius: 10px;
+}
+
+@media(max-width:992px){
+    
 }
 @media(max-width:768px){
     .navimage{
@@ -29,6 +55,7 @@ body div{
     .navimage{
         width: 80%;
     }
+    
 }
 @media(max-width:568px){
     .navimage{
@@ -36,8 +63,8 @@ body div{
     }
     #homehead{
         font-size: 80px;
+        margin-top: 100px;
     }
-   
 }
 @media(max-width:480px){
     .navimage{
@@ -45,6 +72,6 @@ body div{
     }
     #homehead{
         font-size: 60px;
+        margin-top: 100px;
     }
- 
 }
